@@ -37,7 +37,7 @@ lua_draw_hook_pre ring_stats
 
 TEXT
 ${voffset -10}${goto 5}${color3}${font Zekton:style=regular:size=40}${time %H:%M}${color}${goto 22}${voffset 30}${font Zekton:style=bold:size=11}${color slate grey}${time %a}${color}, ${time %e %B %G}
-${goto 268}${voffset -3}${font Zekton:style=bold:size=7}CPU 1${goto 268}${voffset 9}${font Zekton:style=bold:size=7}CPU 0
-${goto 92}${voffset 88}${font Zekton:style=bold:size=7}${color1}HOME${goto 92}${voffset 9}${font Zekton:style=bold:size=7}${color1}ROOT${goto 226}${voffset 10}DOWN${goto 226}${voffset 9}UP${goto 344}${voffset -69}RAM
+${goto 268}${voffset -7}${font Zekton:style=bold:size=7}CPU 1${goto 268}${voffset 11}${font Zekton:style=bold:size=7}CPU 0
+${goto 92}${voffset 85}${font Zekton:style=bold:size=7}${color1}HOME${goto 92}${voffset 11}${font Zekton:style=bold:size=7}${color1}ROOT${goto 226}${voffset 8}DOWN${goto 226}${voffset 11}UP${goto 344}${voffset -71}RAM
 
 ${image ./nicotine.png -p 0,0 -s 300x243}
